@@ -1,0 +1,25 @@
+.item circle{
+    fill: tomato;
+    stroke: burlywood;
+    stroke-width: 8px;
+    transition: 1s;
+
+    
+
+}
+.item circle:hover{
+    stroke: blueviolet;
+    stroke-width: 10;
+}
+.cross{
+     transition: stroke 0.3s ease;
+
+}
+.cross:hover{
+    stroke: blue;
+    stroke-width: 10;;
+}
+.sign:hover{
+    stroke: black;
+    stroke-width: 10;
+}
