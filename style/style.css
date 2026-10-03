@@ -1,4 +1,51 @@
-.item circle{
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes spinSign {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+@keyframes signHover {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyfrmames wobble {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(5deg);
+    }
+    50%{
+        transform: rotate(-5deg);
+    }
+    75%{
+        transform: rotate(5deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+
+
+.item circle {
     fill: tomato;
     stroke: burlywood;
     stroke-width: 8px;
@@ -7,19 +54,22 @@
     
 
 }
-.item circle:hover{
+.item circle:hover {
+    animation: signHover 1s linear infinite, wobble 1s linear infinite;
+    fill: blue;
     stroke: blueviolet;
     stroke-width: 10;
 }
-.cross{
+.cross {
      transition: stroke 0.3s ease;
 
 }
-.cross:hover{
+.cross:hover {
     stroke: blue;
     stroke-width: 10;;
 }
-.sign:hover{
+.sign:hover {
+    animation: signHover 1s linear infinite, wobble 1s linear infinite;
     stroke: black;
     stroke-width: 10;
 }

@@ -1,0 +1,13 @@
+{
+  "[svg]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.suggest.showSnippets": true,
+    "editor.snippetSuggestions": "top",
+    "editor.tabCompletion": "on"
+  }
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 275" width="800" height="367">
+  <style>
+  @keyframes pulse {
+    50% { opacity: 0.3; }
+  }
+  .pulse { animation: pulse 1s infinite; }
+</style>
+  <rect
+        x="50"
+        y="75"
+        width="400"
+        height="200"
+        ry="20"
+        fill="red"
+        stroke="white"     
+        stroke-width="7"/>
+        <polygon 
+        class="pulse"
+        points="215,135 215,210 315,175"
+        fill="white"/>
+</svg>
